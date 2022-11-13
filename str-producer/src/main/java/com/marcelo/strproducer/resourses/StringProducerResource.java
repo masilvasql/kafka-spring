@@ -1,6 +1,6 @@
-package com.marcelo.strpeoducer.resourses;
+package com.marcelo.strproducer.resourses;
 
-import com.marcelo.strpeoducer.services.StringProducerService;
+import com.marcelo.strproducer.services.StringProducerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

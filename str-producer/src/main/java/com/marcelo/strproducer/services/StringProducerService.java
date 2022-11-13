@@ -1,4 +1,4 @@
-package com.marcelo.strpeoducer.services;
+package com.marcelo.strproducer.services;
 
 
 import lombok.RequiredArgsConstructor;

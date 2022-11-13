@@ -1,13 +1,13 @@
-package com.marcelo.strpeoducer;
+package com.marcelo.strproducer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StrPeoducerApplication {
+public class StrProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StrPeoducerApplication.class, args);
+        SpringApplication.run(StrProducerApplication.class, args);
     }
 
 }

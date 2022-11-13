@@ -1,4 +1,4 @@
-package com.marcelo.strpeoducer.config;
+package com.marcelo.strproducer.config;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.kafka.clients.producer.ProducerConfig;

@@ -1,10 +1,10 @@
-package com.marcelo.strpeoducer;
+package com.marcelo.strproducer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StrPeoducerApplicationTests {
+class StrProducerApplicationTests {
 
     @Test
     void contextLoads() {
