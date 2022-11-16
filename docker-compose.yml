@@ -49,6 +49,28 @@ services:
       CONTROL_CENTER_BOOTSTRAP_SERVERS: 'kafka:29092'
       CONTROL_CENTER_REPLICATION_FACTOR: 1
       PORT: 9021
+  
+  payment-producer:
+    image: masilvadocker/payment-service:1.0.2
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+    ports:
+      - "8000:8000"
+    environment:
+      KAFKA_HOST: kafka:29092
+      PORT: 8000
+  
+  payment-consumer:
+    image: masilvadocker/json-consumer:1.0.2
+    networks:
+      - broker-kafka
+    depends_on:
+      - kafka
+      - payment-producer
+    environment:
+      KAFKA_HOST: kafka:29092
 
 networks:
   broker-kafka:
